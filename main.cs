@@ -17,13 +17,13 @@ class Program
 
         // process
         if (age > 17)
-           Console.WriteLine("You are eligible to watch an R-rated movie.");
+          Console.WriteLine("You are eligible to watch an R-rated movie.");
         else if (age > 13)
-           Console.WriteLine("You're eligible to watch a PG-13 movie.");
+          Console.WriteLine("You're eligible to watch a PG-13 movie.");
         else if (age > 5)
-           Console.WriteLine("You can see a G or PG movie.");
+          Console.WriteLine("You can see a G or PG movie.");
         else
-           Console.WriteLine("You're too young to watch most things.");
+          Console.WriteLine("You're too young to watch most things.");
         Console.WriteLine("Done.");
     }
 }
